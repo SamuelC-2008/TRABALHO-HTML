@@ -1,131 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>ProjetoSpace</title>
-    
-    <style>
-      body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #1C1C1C, #057A36);
-            margin: 0;
-            padding: 0;
-        }
+<head>
+<meta charset="UTF-8">
+<title>Minha Apresentação Pessoal</title>
+<style>
+body{
+  font-family:Arial;
+  background:linear-gradient(to right,#1C1C1C,#C0C0C0);
+  margin:0;
+}
+header{
+  text-align:center;
+  padding:15px;
+  background:linear-gradient(to right,#C0C0C0,#1C1C1C);
+  color:black;
+}
+main{
+  padding:20px;
+}
+.card{
+  background:lightgray;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:8px;
+  box-shadow:0 0 5px rgba(0,0,0,.2);
+}
+img{
+  width:200px;
+  border-radius:8px;
+}
+a{
+  color:black;
+  text-decoration:none;
+  font-weight:bold;
+}
+a:hover{color:#C0C0C0;}
+</style>
+</head>
 
-      header {
-            background: linear-gradient(to right, #057A36, #1C1C1C);
-            color: lightgreen;
-            padding: 15px;
-            text-align: center;
-        }
+<body>
 
-        main {
-            padding: 20px;
-        }
+<header>
+<h1>Minha Apresentação Pessoal</h1>
+</header>
 
-        .card {
-            background-color: green;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.2);
-        }
-
-        img {
-            width: 200px;
-            border-radius: 8px;
-        }
-
-        a {
-            color: #000000;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: #24F27A;
-        }
-
-        button {
-            background: linear-gradient(to right, #1C1C1C, #0B5C2D);
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: linear-gradient(to right, #1C1C1C, #24F27A
-            );
-        }
-
-        footer {
-            background: linear-gradient(to right, #6A0DAD, #0000CD);
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-  </head>
-  <body>
-    
-    <header>
-      <h1 class="title"> Broly!</h1>
-    </header>
 <main>
 
-    <div class="card">
-        <h2>Sobre o Broly</h2>
-        <p>Info: Broly é um poderoso mutante Saiyajin e filho de Paragus . Devido ao seu nível de poder, que diziam exceder o do Príncipe Vegeta , ele foi abandonado no planeta Vampa pelo Rei Vegeta , onde foi criado por seu pai até ser resgatado 48 anos depois por Cheelai e Lemo, da Força de Freeza .</p>
-    </div>
+<div class="card">
+<h2>Sobre mim</h2>
+<p>Olá, eu sou <strong>Samuel</strong>. Estudante do 3º ano técnico em informática na escola <u>Rotildino Avelino</u>.</p>
+</div>
 
-    <div class="card">
-        <h2>Feitos do Broly</h2>
-        <ul>
-            <li>Poder de Evolução Reativa</li>
-            <li>Forma Ikari (Ira)</li>
-            <li>Super Saiyajin Full Power</li>
-            <li>Resistência Física</li>
-            <li>Domínio de Luta</li>
-        </ul>
-    </div>
-    
+<div class="card">
+<h2>Hobies</h2>
+<ul>
+<li>Jogar videogames</li>
+<li>Assistir animes</li>
+<li>Ler mangás</li>
+</ul>
+</div>
 
-    <div class="card">
-        <h2>Imagem do Broly</h2>
-        <img src="https://www.fundacaodecultura.ms.gov.br/wp-content/uploads/2024/04/Dragon-Ball-Super-Broly.jpg">
-        <img src="https://assets.mubicdn.net/images/film/201081/image-w1280.jpg?1745494845">
-    </div>
+<div class="card">
+<h2>Imagens</h2>
+<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/802.png">
+<img src="https://img4.mangaclash.com/blue-lock-29536/chapter-338/19.jpg">
+</div>
 
-    <div class="card">
-        <h2>Link da Wiki dele</h2>
-        <p>
-            <a href="https://dragonball.fandom.com/wiki/Broly_(DBS)">
-                Abrir a Wiki
-            </a>
-        </p>
-    </div>
+<div class="card">
+<h2>Site favorito</h2>
+<a href="https://www.crunchyroll.com/pt-br">Abrir site</a>
+</div>
 
-    <div class="card">
-        <h2>Interação</h2>
-        <button onclick="mostrarMensagem()">AAAAAAAAAAAAAAHHH</button>
-        <p id="mensagem"></p>
-    </div>
 
-</main>
-
-<footer>
-    Página criada por Samuel
-</footer>
-      
-      
-      <script>
-         function mostrarMensagem() {
-        document.getElementById("mensagem").innerHTML =
-        "(Broly se transformando em SuperSaiyajin Lendário)";
-    }
-</script>
-      </script>
-  </body>
-</html>
